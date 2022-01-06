@@ -1,21 +1,23 @@
 body{
     font-family: 'Noto Serif', serif;
     margin: 0;
-    width: 100%;
+}
+
+.full-body{
+    margin: 0 10%;
 }
 
 /* firt-section */
 
 
 .full-div{
-    width: 100%;
     display: flex;
 }
 .half-div{
     width: 50%;
 }
 .half-div-desc{
-    margin: 200px 0 0 150px;
+    margin: 170px 0 0 0;
 }
 .header{
     border-image: linear-gradient(red,orange);
@@ -41,7 +43,8 @@ body{
 }
 .half-div img{
     width: 65%;
-    margin: 0;
+    margin-top: 80px;
+    float: right;
 
 }
 .button{
@@ -65,11 +68,10 @@ body{
 .card-div{
     align-items: auto;
     display: flex;
-    width: 65%;
     margin: 0 auto;
 }
 .card{
-    width: 28%;
+    width: 25%;
     height: 400px;
     padding: 40px;
     border-radius: 10%;
@@ -81,7 +83,7 @@ body{
     background-color: rgba(92, 241, 241, 0.1);
 }
 .mid-card{
-    margin:0% 2%;
+    margin:0% 3%;
     background-color: rgb(245, 140, 121, 10%);
 }
 .last-card{
@@ -92,4 +94,57 @@ body{
 }
 .card p{
     font-size: 20px;
+}
+
+/* 3rd & 4th & 5th section */
+
+.section-padd{
+    padding-top: 150px;
+}
+.desc-div{
+    display: flex;
+    margin: 0 auto;
+}
+.half-desc-div{
+    width: 50%;
+}
+.half-desc-div img{
+    width: 80%;
+    border-radius: 7%;
+}
+.half-desc-div-desc p{
+    font-size: 20px;
+    margin-bottom: 5%;
+}
+.half-desc-div-desc h1{
+    font-size: 60px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.global-img{
+    float: right;
+}
+.half-two h1{
+    margin-top: 120px;
+}
+
+/* footer section */
+
+#footer-section{
+    background-color: rgb(31, 29, 29);
+    text-align: center;
+    color: white;
+}
+.footer-div{
+    padding: 20px;
+}
+.footer-div h1{
+    font-size: 60px;
+    font-family: 'Dancing Script', cursive;
+}
+#year{
+    color: tomato;
+}
+.footer-div p{
+    font-size: 20px ;
 }
