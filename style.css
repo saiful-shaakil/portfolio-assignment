@@ -112,7 +112,7 @@ body{
 .half-desc-div img{
     width: 80%;
     border-radius: 7%;
-    margin-top: 20px;
+    margin-top: 35px;
 }
 .half-desc-div-desc h1{
     font-size: 60px;
@@ -145,6 +145,7 @@ body{
 .footer-div h1{
     font-size: 60px;
     font-family: 'Dancing Script', cursive;
+    margin-top: 20px;
 }
 #year{
     color: tomato;
