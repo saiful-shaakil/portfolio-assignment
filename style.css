@@ -27,7 +27,7 @@ body{
 }
 .header h1{
     padding-left: 20px;
-    font-size: 65px;
+    font-size: 60px;
     margin: 0 ;
 }
 .header h2{
@@ -118,6 +118,7 @@ body{
 }
 .half-desc-div-desc h1{
     font-size: 60px;
+    margin-top: 0%;
     margin-bottom: 2%;
 }
 .global-img{
