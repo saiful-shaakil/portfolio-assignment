@@ -1,9 +1,12 @@
 body{
     font-family: 'Noto Serif', serif;
     margin: 0;
+    width: 100%;
 }
-.first-section{
-}
+
+/* firt-section */
+
+
 .full-div{
     width: 100%;
     display: flex;
@@ -48,4 +51,45 @@ body{
     background-color: tomato;
     padding:10px 30px;
     border-radius: 5px;
+}
+
+/* card section */
+
+
+.card-section h1 {
+    font-size: 60px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.card-div{
+    align-items: auto;
+    display: flex;
+    width: 65%;
+    margin: 0 auto;
+}
+.card{
+    width: 28%;
+    height: 400px;
+    padding: 40px;
+    border-radius: 10%;
+}
+.card img{
+    width: 60%;
+}
+.first-card{
+    background-color: rgba(92, 241, 241, 0.1);
+}
+.mid-card{
+    margin:0% 2%;
+    background-color: rgb(245, 140, 121, 10%);
+}
+.last-card{
+    background-color: rgba(122, 151, 248, 0.1);
+}
+.card h3{
+    font-size: 30px;
+}
+.card p{
+    font-size: 20px;
 }
